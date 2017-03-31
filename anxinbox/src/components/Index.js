@@ -1,12 +1,5 @@
-import React from 'react';
-import styles from './Index.css';
+import * as Layout from './LayOut/Index.js';
 
-function Index() {
-  return (
-    <div className={styles.normal}>
-      Component: Index
-    </div>
-  );
-}
-
-export default Index;
+export default{
+	Layout
+};

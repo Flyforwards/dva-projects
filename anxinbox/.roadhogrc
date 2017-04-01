@@ -5,7 +5,7 @@
       "extraBabelPlugins": [
         "dva-hmr",
         "transform-runtime",
-        ["import",{"libraryName":"antd","style":"true"}]
+        ["import",{"libraryName":"antd","style":"css"}]
       ],
       "proxy": {
         "/api": {
@@ -18,7 +18,7 @@
     "production": {
       "extraBabelPlugins": [
         "transform-runtime",
-        ["import", { "libraryName": "antd", "style": "true" }]
+        ["import", { "libraryName": "antd", "style": "css" }]
       ]
     }
   }

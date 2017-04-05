@@ -25,12 +25,14 @@ class Siderslider extends React.Component {
     };
   render() {
     return (
-      <Layout style={{height:"100%"}}>
+      <Layout style={{height:"100%"}}
+        
+      >
         <Sider
           trigger={null}
           collapsible
           collapsed={this.state.collapsed}
-        >	
+                 >	
         <Row  className={styles.logoMenu}>
 	    	<Col span={12} push={1}><img alt={'logo'} src={config.logoSrc} className={styles.logoPic} /></Col>
 			<Col span={12} pull={3}>System</Col>	  
